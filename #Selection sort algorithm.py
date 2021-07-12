@@ -20,7 +20,7 @@ def selectionSort(nlist):
         temp= nlist[fillslot]
         nlist[fillslot]=nlist[maxpos]
         nlist[maxpos]=temp
-nlist = [10,345,45,55]
+nlist = [10,345,45,55,455,56,567,568]
 selectionSort(nlist)
 print(nlist)
 
